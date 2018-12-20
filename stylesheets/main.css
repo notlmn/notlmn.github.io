@@ -101,18 +101,14 @@ a:focus {
 
 
 @keyframes intro {
-  from {
+  from, 12.5% {
     opacity: 0;
     transform: rotateZ(20deg) scale(0.8);
   }
 
-  50% {
+  to {
     opacity: 1;
     transform: scale(1) rotateZ(0deg);
-  }
-
-  100% {
-    transform: none;
   }
 }
 
