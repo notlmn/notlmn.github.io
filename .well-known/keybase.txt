@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/lmn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://notlmn.github.io
+  * I am lmn (https://keybase.io/lmn) on keybase.
+  * I have a public key with fingerprint 9974 A1AD 8D05 435A A74C  5C38 5F2C B13D 2DFF 531F
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010135ae9dae72c106059471278efcba3d9fef2c6cdf26972fdd48f8d76e2f3f288c0a",
+      "fingerprint": "9974a1ad8d05435aa74c5c385f2cb13d2dff531f",
+      "host": "keybase.io",
+      "key_id": "5f2cb13d2dff531f",
+      "kid": "010135ae9dae72c106059471278efcba3d9fef2c6cdf26972fdd48f8d76e2f3f288c0a",
+      "uid": "21b480da0f8977881b77fa1db5ad1a19",
+      "username": "lmn"
+    },
+    "service": {
+      "hostname": "notlmn.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1552317172,
+  "expire_in": 157680000,
+  "prev": "871da87f402df76bacc8ee10d246b780fc0807d0c4c2ef0dfbf4a7e3650f55d0",
+  "seqno": 101,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMNGAnicrZJ9UBRlHMfv4iW4RBgnpK7RZB3EmAN293Zv91CLQXqRYmoEhSH0Znef
+57lbOHbvZY93pAuCxrfGYhj1NJwCGSRhCmIMfAkFNc1sUEpNSIOwF8FMofHMaI/s
+v/7s+eeZ5/f7/j7P9/eb30BEkEantRg+XpU4m/W09mz/To8mv678bgXGy6AMS6nA
+CuHcBe0AuhVLoQiwFAwncMJIc9AMOMiQAoGbcNpMMQTJsBAJPGcEZgQRKZgEgEiT
+mSERABSLWMCYIImMiGRZAecwA4ZEyQpdDpcoKSrWbGYojuAAC3CaUvkcQwm0YGRp
+FcUTRkAChGgjgdRCm+wOVKjmeM4Nk0RZjakPy5y9/9D/z749cziS4CkWBxyOWDPD
+sCzBMwziCMDTHCA4whwQuqFL4oqgqrYXSViVAVMDxaIAAzMNNPEwKcmKmk+yiorN
+w//TjsMlK7Ig29WsTVEc7pRAtVLmCMhLIG95CLLwogTUMaoVxdDlFmUJSyFUpaCI
+ATJB06SRYAiGNGCw1CG6oEUMKGjGxOLqCfwDi1UkyxCAYxlE4erYGBPPCQILIYED
+kjLxDIsjAWdxBuACJZAQ4QDxiOIYaDTROKJpgGOB1pySrLJxQjXKWVWoW7RKnOJx
+QazqeH9+sEar04SGPBJYMI0uPOrftWtXojR9hC548VRtWpw7aEOzX2+3hoJ7x4pd
+Qu7hgtrawR+0WRlMql+KXP3MikTvm4m6EwtWRy9vktunGy84qejp9A3dZ/uMoT//
+BL/+1hD5I9Hdc7B96HuftnXenuSlyR3jveVvnKy2RaCS/B2xysDwgW1H92yis/wr
+op66tWPdtslOx5+dE4uvzLrtWXlpvv2t1u8+Ohc+v7qp0n9a7rspL/mm90ziX3vr
+XU+2jayvq1vaMf3K7fW2LQu6emLvP3+9pTOubWfLta4wr65Bbz9YE6/olzWP+qvh
+21szt+t7Dw2eTxhszj60uf6dlTUjbHxpCkN/euFBWsWjoZ6smMlx59D5zNcKnFUx
+U+6p/ffK4rMXLaEiy0+9+NbYew+mBmqOHRkISwg3l/b3Lnx2ynt/xhR06vGm/hty
+0s3Ttl+fa8toWDvr3SWcjLi73ZOT29r9Yclt2pnnXNsSuzWysmrf0WFfZXJVyOgH
+KxuKMgxgODXDsDF6vC7dqvvkmv8z9+imMEQ4WstvvbAsO++3VTkXT0y05lxaqJ0f
+nKpcJn0xV9J323p+2ZWJJiRtSCP64+o+ve96qJLsGdm7qNc04nh9Xv2YtSNEXP75
+Y+93WYJ2T57JPXK1UK/5crRx3Tlids2Yt2fjSzdmRCnhTgHvQ2sOX477/dK71jsz
+X9ReNE4P+Z4gjr/sfXVzWMZXB/4GKxXDyQ==
+=sdX8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lmn
+
+==================================================================
