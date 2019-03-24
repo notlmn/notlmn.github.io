@@ -12,11 +12,8 @@ body {
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #212121;
-  background-color: #fafafb;
+  color: #263238;
+  background-color: #eceff1;
 }
 
 h1, strong {
@@ -24,35 +21,38 @@ h1, strong {
 }
 
 a {
-  color: currentColor;
+  color: #6a1b9a;
   text-decoration: none;
   padding: 0 0.125rem;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 1px solid transparent;
 }
 
 a:hover,
 a:focus {
   outline: none;
-  background-color: rgba(156, 39, 176, 0.15);
+  border-bottom: 1px solid currentColor;
+  background-color: hsla(291, 64%, 42%, 0.1);
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: wrap;
-  padding: 2rem 0;
+  flex-wrap: wrap;
+  padding: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
 }
 
 .mascots {
   position: relative;
   border-radius: 50%;
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 12rem;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 7px 22px 4px rgba(0, 0, 0, 0.2);
-  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem;
 }
 
 .mascots .mascots__mascot {
@@ -89,16 +89,25 @@ a:focus {
 
 .meta {
   padding: 1rem;
+  background-color: #fff;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .meta h1,
 .meta p,
-.meta ul {
+.meta ul,
+.meta pre {
   margin: 0;
-  padding-bottom: 0.5rem;
+  margin-bottom: 1.125rem;
 }
 
-
+.meta .pgp-fingerprint {
+  white-space: pre-wrap;
+  font-size: 0.875rem;
+  line-height: 1.125;
+}
 
 @keyframes intro {
   from, 12.5% {
@@ -119,10 +128,6 @@ a:focus {
 
 @media (max-width: 48rem) {
   body {
-    display: block;
-  }
-
-  .meta h1 {
-    text-align: center;
+    font-size: 0.875rem;
   }
 }
