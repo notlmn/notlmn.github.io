@@ -2,6 +2,44 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-accent-light: #7C4DFF;
+  --color-accent-dark: #673AB7;
+
+  --color-light: #fff;
+  --color-light-secondary: #eceff1;
+  --color-dark: #212121;
+  --color-dark-secondary: #424242;
+}
+
+body {
+  --color-accent: var(--color-accent-dark);
+
+  --color-foreground: var(--color-dark);
+  --color-foreground-secondary: var(--color-dark-secondary);
+  --color-background: var(--color-light);
+  --color-background-secondary: var(--color-light-secondary);
+
+  --shadow-2dp: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-accent: var(--color-accent-light);
+
+    --color-foreground: var(--color-light);
+    --color-foreground-secondary: var(--color-light-secondary);
+    --color-background: var(--color-dark);
+    --color-background-secondary: var(--color-dark-secondary);
+
+    --shadow-2dp: none;
+  }
+
+  img {
+    mix-blend-mode: luminosity;
+  }
+}
+
 html,
 body {
   margin: 0;
@@ -9,11 +47,11 @@ body {
   line-height: 1.5;
   font-size: 16px;
   width: 100%;
-  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #263238;
-  background-color: #eceff1;
+
+  color: var(--color-foreground);
+  background: var(--color-background-secondary);
 }
 
 h1, strong {
@@ -21,9 +59,8 @@ h1, strong {
 }
 
 a {
-  color: #6a1b9a;
+  color: var(--color-accent);
   text-decoration: none;
-  padding: 0 0.125rem;
   border-bottom: 1px solid transparent;
 }
 
@@ -31,7 +68,6 @@ a:hover,
 a:focus {
   outline: none;
   border-bottom: 1px solid currentColor;
-  background-color: hsla(291, 64%, 42%, 0.1);
 }
 
 .container {
@@ -44,14 +80,20 @@ a:focus {
   margin: 0 auto;
 }
 
+.mascots,
+.meta {
+  color: var(--color-foreground);
+  background: var(--color-background);
+}
+
 .mascots {
   position: relative;
   border-radius: 50%;
   width: 12rem;
   height: 12rem;
   overflow: hidden;
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: var(--color-background);
+  box-shadow: var(--shadow-2dp);
   margin: 2rem;
 }
 
@@ -89,10 +131,9 @@ a:focus {
 
 .meta {
   padding: 1rem;
-  background-color: #fff;
   border-radius: 3px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-2dp);
 }
 
 .meta h1,
@@ -104,7 +145,7 @@ a:focus {
 }
 
 .meta .pgp-fingerprint {
-  white-space: pre-wrap;
+  white-space: pre-line;
   font-size: 0.875rem;
   line-height: 1.125;
 }
