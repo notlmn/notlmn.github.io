@@ -1,0 +1,23 @@
+ ______     __  __     ______   ______     __    __     ______     _____     ______
+/\  == \   /\ \_\ \   /\__  _\ /\  ___\   /\ "-./  \   /\  __ \   /\  __-.  /\  ___\
+\ \  __<   \ \____ \  \/_/\ \/ \ \  __\   \ \ \-./\ \  \ \ \/\ \  \ \ \/\ \ \ \  __\
+ \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\ \ \_\  \ \_____\  \ \____-  \ \_____\
+  \/_____/   \/_____/     \/_/   \/_____/   \/_/  \/_/   \/_____/   \/____/   \/_____/
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+/* TEAM */
+	Designer and Developer: Laxman Damera
+	Contact: notlmn@outlook.com
+	Twitter: @bytemode
+	From: Telangana, India
+
+/* THANKS */
+	Typo fixes by: Federico Brigante (@bfred-it)
+
+	Visit https://github.com/notlmn/notlmn.github.io/graphs/contributors for more info
+
+/* SITE */
+	Language: English
+	Doctype: HTML5
+	IDE: Visual Studio Code

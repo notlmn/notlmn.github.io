@@ -3,13 +3,13 @@
 }
 
 :root {
-  --color-accent-light: #7C4DFF;
+  --color-accent-light: #ff80ff;
   --color-accent-dark: #673AB7;
 
   --color-light: #fff;
   --color-light-secondary: #eceff1;
-  --color-dark: #212121;
-  --color-dark-secondary: #424242;
+  --color-dark: #202122;
+  --color-dark-secondary: #404142;
 }
 
 body {
