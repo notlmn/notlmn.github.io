@@ -8,8 +8,8 @@
 
   --color-light: #fff;
   --color-light-secondary: #eceff1;
-  --color-dark: #202122;
-  --color-dark-secondary: #404142;
+  --color-dark: #404142;
+  --color-dark-secondary: #202122;
 }
 
 body {
@@ -20,7 +20,9 @@ body {
   --color-background: var(--color-light);
   --color-background-secondary: var(--color-light-secondary);
 
-  --shadow-2dp: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-2dp: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,10 +35,6 @@ body {
     --color-background-secondary: var(--color-dark-secondary);
 
     --shadow-2dp: none;
-  }
-
-  img {
-    mix-blend-mode: luminosity;
   }
 }
 
@@ -98,6 +96,7 @@ a:focus {
 }
 
 .mascots .mascots__mascot {
+  border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
@@ -142,12 +141,6 @@ a:focus {
 .meta pre {
   margin: 0;
   margin-bottom: 1.125rem;
-}
-
-.meta .pgp-fingerprint {
-  white-space: pre-line;
-  font-size: 0.875rem;
-  line-height: 1.125;
 }
 
 @keyframes intro {

@@ -1,3 +1,2 @@
 Contact: notlmn@outlook.com
-Encryption: https://notlmn.github.io/pgp-key.txt
 Preferred-Languages: en
